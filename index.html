@@ -132,7 +132,7 @@
             font-size: 3.5rem;
             margin-bottom: 0.5rem;
             opacity: 0;
-            animation: fadeInUp 0.8s ease forwards;
+            animation: fadeInUp 0.3s ease forwards;
         }
 
         /* Typing Effect */
@@ -148,7 +148,7 @@
             border-right: 3px solid var(--accent);
             white-space: nowrap;
             overflow: hidden;
-            animation: typing 3s steps(30) 0.8s forwards, blink 0.7s step-end infinite;
+            animation: typing 0.8s steps(30) 0.3s forwards, blink 0.7s step-end infinite;
             width: 0;
             max-width: fit-content;
             margin: 0 auto;
@@ -168,7 +168,7 @@
             max-width: 600px;
             margin: 0 auto 2rem;
             opacity: 0;
-            animation: fadeInUp 0.8s ease 3.5s both;
+            animation: fadeInUp 0.6s ease 1.0s both;
         }
 
         .hero-btns {
@@ -176,7 +176,7 @@
             gap: 1rem;
             justify-content: center;
             opacity: 0;
-            animation: fadeInUp 0.8s ease 4s both;
+            animation: fadeInUp 0.6s ease 1.4s both;
         }
 
         .btn {
@@ -222,7 +222,7 @@
             transform: translateX(-50%);
             z-index: 2;
             opacity: 0;
-            animation: fadeInUp 0.8s ease 4.5s both;
+            animation: fadeInUp 0.6s ease 1.8s both;
         }
 
         .scroll-indicator i {
@@ -389,14 +389,6 @@
 
         .project-links a:hover {
             color: var(--primary);
-        }
-
-        .coming-soon {
-            opacity: 0.7;
-        }
-
-        .coming-soon .project-image {
-            background: linear-gradient(135deg, #718096, #a0aec0);
         }
 
         /* Education */
@@ -657,35 +649,37 @@
             </div>
 
             <!-- Project 2 -->
-            <div class="project-card coming-soon">
+            <div class="project-card">
                 <div class="project-image"><i class="fab fa-react"></i></div>
                 <div class="project-info">
-                    <h3>React Project</h3>
-                    <p>A modern web application built with React. Currently in development — features interactive UI components and state management.</p>
+                    <h3>SpaceDesign</h3>
+                    <p>A modern React web application featuring interactive UI components, responsive design, and dynamic state management.</p>
                     <div class="project-tech">
                         <span class="tech-badge">React</span>
                         <span class="tech-badge">JavaScript</span>
                         <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">Vercel</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" style="opacity:0.5;cursor:not-allowed;"><i class="fas fa-clock"></i> Coming Soon</a>
+                        <a href="https://spacedesign-azure.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                     </div>
                 </div>
             </div>
 
             <!-- Project 3 -->
-            <div class="project-card coming-soon">
+            <div class="project-card">
                 <div class="project-image"><i class="fas fa-n"></i></div>
                 <div class="project-info">
-                    <h3>Next.js Project</h3>
-                    <p>A full-stack application leveraging Next.js for server-side rendering and API routes. Work in progress.</p>
+                    <h3>Pottery Customizer</h3>
+                    <p>A Next.js full-stack application with server-side rendering, API routes, and an interactive pottery customization interface.</p>
                     <div class="project-tech">
                         <span class="tech-badge">Next.js</span>
                         <span class="tech-badge">React</span>
                         <span class="tech-badge">API</span>
+                        <span class="tech-badge">Vercel</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" style="opacity:0.5;cursor:not-allowed;"><i class="fas fa-clock"></i> Coming Soon</a>
+                        <a href="https://pottery-customizer-mrjjovkxi-noorsaherfayaz-creates-projects.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                     </div>
                 </div>
             </div>
